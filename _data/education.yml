@@ -1,4 +1,12 @@
 # Education Template
+# - name:
+#   dates:
+#   qualification:
+#   quote: >
+#     ...short description of institution or course
+#   description: |
+#     ...description of qualification
+
 - name: LT in Informatica
   dates: 2018 - 2020 (stimato)
   qualification: Università degli studi di Padova

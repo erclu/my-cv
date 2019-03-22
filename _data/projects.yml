@@ -1,4 +1,12 @@
 # Project template
+# - name: 
+#   link:
+#   github:
+#   quote: >
+#     short overview
+#   description: |
+#     ...
+
 - name: uni-helper
   link: Link to project (eg. erclu.github.io/my-cv)(optional)
   github: Github page for project (eg. erclu/my-cv)(optional)

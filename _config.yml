@@ -6,10 +6,11 @@ favicon: assets/images/logo.png
 # TODO put this into external file (why?)
 # Personal info
 name: Luca Ercole
-title: Studente CdL triennale in Informatica
+title: Studente LT in Informatica
+address: Padova (PD)
 email: luca.ercole.90@gmail.com
 phone: +39 333 3476 981
-website: erclu.github.io/my-cv
+website: https://erclu.github.io/my-cv #FIXME
 
 # Social links
 # twitter_username: jekyllrb
