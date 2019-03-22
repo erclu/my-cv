@@ -1,0 +1,67 @@
+# Site
+repository: erclu/my-cv
+favicon: assets/images/logo.png
+# TODO language?
+
+# TODO put this into external file (why?)
+# Personal info
+name: Luca Ercole
+title: Studente CdL triennale in Informatica
+email: luca.ercole.90@gmail.com
+phone: +39 333 3476 981
+website: erclu.github.io/my-cv
+
+# Social links
+# twitter_username: jekyllrb
+github_username: erclu
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: #TODO linkedin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: assets/images/pic.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+    - Lists
+    - Tables
+    - Links
+    - Images
+
+# Projects Section
+projects_title: Progetti #(Use this to override about projects section title)
+
+# Experience Section
+experience_title: Esperienze lavorative #(Use this to override about experience section title)
+
+# Education Section
+education_title: Istruzione e formazione #(Use this to override about education section title)
+
+# More Section
+more_title: Hobby & interessi #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
