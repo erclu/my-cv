@@ -29,6 +29,10 @@
       {%- include more.html -%}
       {%- endif -%}
 
+      {%- if site.show_data_consent -%}
+      {%- include data_consent.html -%}
+      {%- endif -%}
+
     </div>
   </main>
 
