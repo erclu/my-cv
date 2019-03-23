@@ -9,7 +9,8 @@ title: Studente LT in Informatica
 address: Padova (PD)
 email: luca.ercole.90@gmail.com
 phone: +39 333 3476 981
-website: https://erclu.github.io/my-cv # FIXME
+# website: https://erclu.github.io/my-cv # TODO decide if i should keep it
+# TODO add QR code in print version
 
 # Social links
 # twitter_username: jekyllrb
