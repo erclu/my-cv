@@ -1,2 +1,16 @@
+# Social links
+social:
+  # dribbble: jekyll
+  # facebook: jekyll
+  # flickr: jekyll
+  github: erclu
+  # googleplus: +jekyll
+  # instagram: jekyll
+  # linkedin: # TODO linkedin
+  # pinterest: jekyll
+  # twitter: jekyllrb
+  # xing: jekyll
+  # youtube: jekyll
+
 profile_image: assets/images/pic.jpg
 content: | # TODO su di me

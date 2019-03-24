@@ -2,7 +2,6 @@
 repository: erclu/my-cv
 favicon: assets/images/logo.png
 
-# TODO put this section into external file (why?)
 # Personal info
 name: Luca Ercole
 title: Studente LT in Informatica
@@ -11,19 +10,6 @@ email: luca.ercole.90@gmail.com
 phone: +39 333 3476 981
 # website: https://erclu.github.io/my-cv # TODO decide if i should keep it
 # TODO add QR code in print version
-
-# Social links
-# twitter_username: jekyllrb
-github_username: erclu
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: # TODO linkedin
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
 
 # About Section
 about_title: Chi sono
@@ -44,7 +30,8 @@ more_title: Hobby e interessi # (comment to hide section)
 # show_data_consent: true
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
+# TODO tradurre footer.html in ita
 
 sass:
   sass_dir: _sass
