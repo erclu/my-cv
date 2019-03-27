@@ -26,12 +26,8 @@ education_title: Istruzione e formazione
 # More Section
 more_title: Hobby e interessi # (comment to hide section)
 
-# Data consent Section
-# show_data_consent: true
-
 # Footer
-# footer_show_references: true
-# TODO tradurre footer.html in ita
+show_data_consent: true
 
 sass:
   sass_dir: _sass
