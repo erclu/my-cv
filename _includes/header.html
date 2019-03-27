@@ -111,13 +111,13 @@
       </p>
       {%- endif -%}
       {%- if site.phone -%}
-      <p>
+      <p class="only-print">
         Phone: {{ site.phone | escape }}
       </p>
       {%- endif -%}
       {%- if site.website -%}
-      <p>
-        Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+      <p class="only-print">
+        Website: {% include a.html href=site.website %}{{ site.website | escape }}</a>
       </p>
       {%- endif -%}
     </div>

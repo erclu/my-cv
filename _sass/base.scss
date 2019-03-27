@@ -315,3 +315,9 @@ body {
     display: none !important;
   }
 }
+
+@media not print {
+  .only-print {
+    display: none !important;
+  }
+}
