@@ -10,10 +10,8 @@
 - name: My CV
   link: erclu.github.io/my-cv
   github: erclu/my-cv
-  quote: >
-    versione sia digitale che cartacea del mio CV
   description: |
-    Attraverso questo progetto ho acquisito maggiore confidenza con alcuni strumenti moderni di web development, in particolare per la generazione di contenuti statici. Mi permetterà inoltre di fare un po' di pratica con metodologie e strumenti di CI e CD.
+    Il mio curriculum in formato sia digitale che cartaceo. Attraverso questo progetto ho acquisito maggiore confidenza con alcuni strumenti moderni di web development, in particolare per la generazione di contenuti statici.
 
 - name: University Helper
   github: erclu/uni-helper
