@@ -209,6 +209,10 @@ body {
 
   @media print {
     margin-top: 20px;
+    // typographic margins for content
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: unset;
   }
 }
 
