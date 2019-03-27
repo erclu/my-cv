@@ -16,7 +16,7 @@
 - name: University Helper
   github: erclu/uni-helper
   description: | # this will include new lines to allow paragraphs
-    Collezione organica di script per gestire in maniera *smart* vari aspetti tediosi legati agli orari dei corsi e agli appunti che scrivo.
+    Collezione organica di script per gestire in maniera *smart* vari aspetti legati all'università, come ad esempio aggiornare il calendario in seguito a variazioni di orario sulla bacheca ufficiale, e associare gli appunti ai corsi in base all'ora in cui sono stati presi.
     Con questo progetto ho imparato ad usare
     - [Google API python client](https://developers.google.com/api-client-library/python/)
     - [oauthlib](google-auth-oauthlib)
@@ -34,7 +34,7 @@
 - name: Diffie-Hellmann breaker
   github: erclu/diffie-hellmann
   description: |
-    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola in vari modi i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
+    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola con vari algoritmi i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
 
 - name: Pairing Heap
   github: erclu/pairing-heap
