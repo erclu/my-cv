@@ -1,5 +1,5 @@
 # Project template
-# - name: 
+# - name:
 #   link:
 #   github:
 #   quote: >
@@ -7,10 +7,43 @@
 #   description: |
 #     ...
 
-- name: uni-helper
-  link: Link to project (eg. erclu.github.io/my-cv)(optional)
-  github: Github page for project (eg. erclu/my-cv)(optional)
+- name: My CV
+  link: erclu.github.io/my-cv
+  github: erclu/my-cv
   quote: >
-    Short overview of the project (optional)
+    versione sia digitale che cartacea del mio CV
+  description: |
+    Attraverso questo progetto ho acquisito maggiore confidenza con alcuni strumenti moderni di web development, in particolare per la generazione di contenuti statici. Mi permetterà inoltre di fare un po' di pratica con metodologie e strumenti di CI e CD.
+
+- name: University Helper
+  github: erclu/uni-helper
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Collezione organica di script per gestire in maniera *smart* vari aspetti tediosi legati agli orari dei corsi e agli appunti che scrivo.
+    Con questo progetto ho imparato ad usare
+    - [Google API python client](https://developers.google.com/api-client-library/python/)
+    - [oauthlib](google-auth-oauthlib)
+    - lxml (parsing di svg)
+    - [ReportLab PDF toolkit](https://www.reportlab.com/opensource/)
+
+- name: Next's database model
+  github: erclu/next-db
+  # # english text
+  # description: |
+  #   We tried to model (with *many* simplifying assumptions) the data collected during the day-to-day operations of a fleet of modular dynamic ride sharing (mDRS) vehicles such as those proposed by [Next Future Transportations](https://www.next-future-mobility.com/).
+  description: |
+    Abbiamo provato a progettare un modello (con considerevoli semplificazioni) per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari (modular dynamic ride sharing), come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
+
+- name: Diffie-Hellmann breaker
+  github: erclu/diffie-hellmann
+  description: |
+    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola in vari modi i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
+
+- name: Pairing Heap
+  github: erclu/pairing-heap
+  description: |
+    Implementazione stile STL di una [Pairing Heap](https://en.wikipedia.org/wiki/Pairing_heap).
+
+# TODO caricare su github
+- name: '"swl" parser'
+  description: |
+    "simple while language" parser sviluppato con antlr4 in C++. Esercizio fatto durante il corso di automi e linguaggi formali.
