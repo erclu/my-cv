@@ -29,7 +29,7 @@ ul.icons a {
 }
 
 .icons i {
-  font-size: 30px;
+  font-size: 30px; // icon size is fixed
   line-height: 60px;
 }
 
@@ -56,7 +56,7 @@ ul.icons a {
 }
 
 @media screen and (max-width: 768px) {
-  .header-contianer div {
+  .header-container div {
     text-align: center;
   }
 
@@ -116,7 +116,7 @@ ul.icons a {
       text-align: inherit;
       font-weight: 300;
 
-      b {
+      strong {
         font-weight: 500;
       }
     }
@@ -160,6 +160,11 @@ ul.icons a {
 
 .footer-container {
   margin-top: 100px;
+
+  .consent-container {
+    border: 2px solid #CCC;
+    padding: 20px;
+  }
 }
 
 .footer-container p {
@@ -194,7 +199,7 @@ ul.icons a {
 p.quote {
   font-size: 1.4em;
   font-style: italic;
-  padding: 1em 2.5em;
+  padding: .5em 2.5em 1em;
   text-align: center;
 
   @media print {

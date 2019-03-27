@@ -1,9 +1,25 @@
-<div class="container footer-container">
+<footer class="container footer-container">
+
+  {%- if site.show_data_consent -%}
+  <p class="consent-container">
+    {%- if page.lang == "it" -%}
+    Autorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Dlgs 196 del 30 giugno 2003 e dell’art.
+    13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale
+    {%-elsif page.lang == "en" -%}
+    <!-- TODO english consent text -->
+    {%- endif -%}
+  </p>
+  {%- endif -%}
+
   <p>
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-    {%- if site.footer_show_references -%}
-    &nbsp;- References on request
+    -
+    <!-- FIXME missing space? -->
+    {%- if page.lang == "it" -%}
+    Referenze su richiesta
+    {%-elsif page.lang == "en" -%}
+    References on request
     {%- endif -%}
   </p>
-</div>
+</footer>

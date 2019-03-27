@@ -1,11 +1,33 @@
 # Experience template
-- company: Università degli studi di Padova
-  link: Link to company (optional)
-  job_title: Volontario Servizio Civile Nazionale
-  dates: 01/2017 - 01/2018
-  quote: >
-    servizio svolto presso il Centro di Ateneo per le Biblioteche - Polo di giurisprudenza
+# - company: 
+#   link: 
+#   job_title: 
+#   dates: 
+#   quote: >
+#     ...
+#   description: |
+#     ...
 
-    dip. di diritto privato e critica del diritto & dip. di diritto pubblico, internazionale e comunitario
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+- company: Next - Future Transportation
+  link: https://www.next-future-mobility.com
+  job_title: Tirocinante (extracurricolare)
+  dates: 11/2017 - 02/2018
+  description: |
+    Ho avuto l'opportunità di collaborare con il team di Next basato a Padova durante l'assemblaggio di due prototipi del veicolo modulare da loro inventato e presentato al Dubai World Government Summit di febbraio 2018.
+
+- company: Università degli studi di Padova
+  job_title: Volontario Servizio Civile Nazionale
+  dates: 2017 - 2018
+  quote: >
+    progetto “Le biblioteche e loro utenti, per crescere e migliorare insieme”,
+    svolto presso il Centro di Ateneo per le Biblioteche - Polo di giurisprudenza - Biblioteche di Diritto Privato e Pubblico
+  description: |
+    Servizi all’utenza in presenza e a distanza (biblioteca digitale), supporto nella gestione delle collezioni e nei progetti di digitalizzazione per la valorizzazione/preservazione del patrimonio antico. 
+
+    Il progetto a cui ho partecipato prevedeva oltre all'attività lavorativa anche ~120 ore di corsi di formazione, in particolare
+    - Primo soccorso (CPR e disostruzione delle vie aeree)
+    - Sicurezza sul luogo di lavoro e procedure di emergenza
+    - Comunicazione interpersonale e gestione dei conflitti
+    - Diritto d’autore in biblioteca e Open access
+    - Cittadinanza attiva e inclusiva, diritti umani
+    - Introduzione alla lingua dei segni italiana

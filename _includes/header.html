@@ -1,4 +1,4 @@
-<div class="container header-contianer">
+<header class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
@@ -6,89 +6,93 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.dribbble_username -%}
+        {%- if site.data.about.social.dribbble -%}
         <li>
-          <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://dribbble.com/{{ site.data.about.social.dribbble| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-dribbble" title="Dribble link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.facebook_username -%}
+        {%- if site.data.about.social.facebook -%}
         <li>
-          <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://www.facebook.com/{{ site.data.about.social.facebook| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-facebook" title="Facebook link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.flickr_username -%}
+        {%- if site.data.about.social.flickr -%}
         <li>
-          <a target="_blank" href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}"
+          <a target="_blank"
+            href="https://www.flickr.com/photos/{{ site.data.about.social.flickr| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-flickr" title="Flickr link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.github_username -%}
+        {%- if site.data.about.social.github -%}
         <li>
-          <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://github.com/{{ site.data.about.social.github| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-github" title="Github link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.instagram_username -%}
+        {%- if site.data.about.social.instagram -%}
         <li>
-          <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}"
+          <a target="_blank"
+            href="https://www.instagram.com/{{ site.data.about.social.instagram| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-instagram" title="Instagram link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.linkedin_username -%}
+        {%- if site.data.about.social.linkedin -%}
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
+          <a target="_blank"
+            href="https://www.linkedin.com/in/{{ site.data.about.social.linkedin| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-linkedin" title="Linkedin link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.xing_username -%}
+        {%- if site.data.about.social.xing -%}
         <li>
-          <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://www.xing.com/profile/{{ site.data.about.social.xing| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-xing" title="Xing link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.pinterest_username -%}
+        {%- if site.data.about.social.pinterest -%}
         <li>
-          <a target="_blank" href="https://www.pinterest.com/{{ site.pinterest_username| cgi_escape | escape }}"
+          <a target="_blank"
+            href="https://www.pinterest.com/{{ site.data.about.social.pinterest| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-pinterest" title="Pintrest link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.twitter_username -%}
+        {%- if site.data.about.social.twitter -%}
         <li>
-          <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://twitter.com/{{ site.data.about.social.twitter| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-twitter" title="Twitter link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.youtube_username -%}
+        {%- if site.data.about.social.youtube -%}
         <li>
-          <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}"
+          <a target="_blank" href="https://www.youtube.com/{{ site.data.about.social.youtube| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-youtube-play" title="Youtube link"></i>
           </a>
         </li>
         {%- endif -%}
-        {%- if site.googleplus_username -%}
+        {%- if site.data.about.social.googleplus -%}
         <li>
-          <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}"
+          <a target="_blank" href="https://plus.google.com/{{ site.data.about.social.googleplus| escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-google-plus" title="Google plus link"></i>
           </a>
@@ -97,20 +101,17 @@
       </ul>
 
       {%- if site.email -%}
-      <p>
-        Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-      </p>
+      <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
+      {%- endif -%}
+      {%- if site.address -%}
+      <p> Address: {{ site.address | escape }} </p>
       {%- endif -%}
       {%- if site.phone -%}
-      <p>
-        Phone: {{ site.phone | escape }}
-      </p>
+      <p class="only-print"> Phone: {{ site.phone | escape }} </p>
       {%- endif -%}
       {%- if site.website -%}
-      <p>
-        Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-      </p>
+      <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
       {%- endif -%}
     </div>
   </div>
-</div>
+</header>

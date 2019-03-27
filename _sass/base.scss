@@ -209,10 +209,14 @@ body {
 
   @media print {
     margin-top: 20px;
+    // typographic margins for content
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: unset;
   }
 }
 
-.header-contianer {
+.header-container {
   margin-top: 50px;
 }
 
@@ -233,6 +237,26 @@ body {
   text-align: right;
 }
 
+.toolbox-container {
+  margin: 0 15px;
+}
+
+.toolbox-title {
+  padding-bottom: 5px;
+  border-bottom: 1.5px dashed #CCCCCC;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.toolbox-item {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 110px;
+  margin-top: 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
 @media print {
   a[href]:after {
     content: none !important;
@@ -240,6 +264,11 @@ body {
 
   img[src]:after {
     content: none !important;
+  }
+
+  .row,
+  .col-print-12 {
+    page-break-inside: avoid;
   }
 
   .col-sm-1,
@@ -305,12 +334,19 @@ body {
     width: 8.33333333%;
   }
 
+  // FIXME split 2/10 or 3/9 or smth like that
   .col-print-12 {
     width: 100%;
   }
 
   .no-print,
   .no-print * {
+    display: none !important;
+  }
+}
+
+@media not print {
+  .only-print {
     display: none !important;
   }
 }
