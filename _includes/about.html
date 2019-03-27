@@ -6,6 +6,14 @@
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       {{ site.data.about.content | strip | markdownify }}
+
+      <div class="toolbox-container">
+        <h4 class="toolbox-title">{{ site.data.about.toolbox_title | strip }}</h4>
+        {% for item in site.data.about.simple_toolbox %}
+        <p class="toolbox-item">{{ item | strip }}</p>
+        {% endfor %}
+      </div>
+
     </div>
   </div>
 </div>

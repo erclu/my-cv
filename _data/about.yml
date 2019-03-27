@@ -14,4 +14,39 @@ social:
 
 # About Section
 profile_image: assets/images/pic.jpg
-content: | # TODO su di me
+content: |
+  Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark> e <mark>Web Development</mark> con un focus sulla usability. Faccio abbondante uso di <mark>Script</mark> per semplificare task ripetitivi.
+
+  Sono metodico e ho un background fortemente orientato al problem-solving.
+
+  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark> (test preliminare su [Tracktest.eu](https://tracktest.eu)), espressione orale <mark>C1</mark> 
+
+toolbox_title: Linguaggi, librerie e framework
+simple_toolbox:
+  - <mark>Python</mark>
+  - Jupyter
+  - Flask
+  - PuLP
+  - pytest
+  - <mark>Java 8, 9</mark>
+  - JUnit 5
+  - TypeScript
+  - <mark>JavaScript</mark>
+  - <mark>Google Apps Script</mark>
+  - HTML
+  - XML
+  - CSS
+  - PostCSS
+  - Sass
+  - Jekyll
+  - SQL
+  - C++
+  - Arduino
+  - Unity (C#)
+  - PHP
+  - <mark>Git</mark>
+  - bash
+  - PowerShell
+  - LaTeX
+  - pandoc
+

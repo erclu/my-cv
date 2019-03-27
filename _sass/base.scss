@@ -237,6 +237,26 @@ body {
   text-align: right;
 }
 
+.toolbox-container {
+  margin: 0 15px;
+}
+
+.toolbox-title {
+  padding-bottom: 5px;
+  border-bottom: 1.5px dashed #CCCCCC;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.toolbox-item {
+  display: inline-block;
+  font-size: 1.2em;
+  width: 110px;
+  margin-top: 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
 @media print {
   a[href]:after {
     content: none !important;
