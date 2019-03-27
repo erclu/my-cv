@@ -266,6 +266,11 @@ body {
     content: none !important;
   }
 
+  .row,
+  .col-print-12 {
+    page-break-inside: avoid;
+  }
+
   .col-sm-1,
   .col-sm-2,
   .col-sm-3,

@@ -101,24 +101,16 @@
       </ul>
 
       {%- if site.email -%}
-      <p>
-        Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-      </p>
+      <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
       {%- endif -%}
       {%- if site.address -%}
-      <p>
-        Address: {{ site.address | escape }}
-      </p>
+      <p> Address: {{ site.address | escape }} </p>
       {%- endif -%}
       {%- if site.phone -%}
-      <p class="only-print">
-        Phone: {{ site.phone | escape }}
-      </p>
+      <p class="only-print"> Phone: {{ site.phone | escape }} </p>
       {%- endif -%}
       {%- if site.website -%}
-      <p class="only-print">
-        Website: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-      </p>
+      <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
       {%- endif -%}
     </div>
   </div>
