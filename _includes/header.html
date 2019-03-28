@@ -102,7 +102,7 @@
 
       {%- if site.website -%}
       <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
-        alt="qr code" class="cropped-qr" />
+        alt="qr code" class="only-print cropped-qr" />
       <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
       {%- endif -%}
       {%- if site.email -%}
