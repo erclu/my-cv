@@ -1,7 +1,7 @@
 # Site
 # repository: erclu/my-cv
 favicon: assets/images/logo.png
-# google_analytics: true #XXX not sure about this
+google_analytics: true #XXX not sure about this
 
 # Personal info
 name: Luca Ercole
