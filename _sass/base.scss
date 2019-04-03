@@ -144,6 +144,10 @@ html {
   box-sizing: border-box;
 }
 
+.cropped-qr {
+  margin: -10px;
+}
+
 *,
 *::after,
 *::before {
@@ -334,7 +338,6 @@ body {
     width: 8.33333333%;
   }
 
-  // FIXME split 2/10 or 3/9 or smth like that
   .col-print-12 {
     width: 100%;
   }

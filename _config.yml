@@ -1,15 +1,14 @@
 # Site
-# repository: erclu/my-cv
+repository: erclu/my-cv
 favicon: assets/images/logo.png
 
 # Personal info
 name: Luca Ercole
 title: Studente LT in Informatica
-address: Padova (PD)
+website: erclu.github.io/my-cv
 email: luca.ercole.90@gmail.com
-phone: +39 333 3476 981
-website: https://erclu.github.io/my-cv
-# TODO add QR code in print version
+address: Padova (PD)
+# phone: ...
 
 # About Section
 about_title: Chi sono

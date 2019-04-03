@@ -100,6 +100,11 @@
         {%- endif -%}
       </ul>
 
+      {%- if site.website -%}
+      <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
+        alt="qr code" class="only-print cropped-qr" />
+      <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
+      {%- endif -%}
       {%- if site.email -%}
       <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
       {%- endif -%}
@@ -107,10 +112,7 @@
       <p> Address: {{ site.address | escape }} </p>
       {%- endif -%}
       {%- if site.phone -%}
-      <p class="only-print"> Phone: {{ site.phone | escape }} </p>
-      {%- endif -%}
-      {%- if site.website -%}
-      <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
+      <p> Phone: {{ site.phone | escape }} </p>
       {%- endif -%}
     </div>
   </div>
