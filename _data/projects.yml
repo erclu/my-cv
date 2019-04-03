@@ -7,6 +7,15 @@
 #   description: |
 #     ...
 
+- name: Google Hash Code 2019
+  github: erclu/google-hashcode-2019-qualification
+  quote: >
+    Python
+  description: |
+    rifattorizzazione e miglioramenti che ho fatto sulla soluzione sviluppata dal mio gruppo per l'Online Qualification Round.
+
+    Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) per massimizzare uno *score* fra tutte le coppie di elementi.
+
 - name: My CV
   link: erclu.github.io/my-cv
   github: erclu/my-cv
