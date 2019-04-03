@@ -4,9 +4,10 @@
   <p class="consent-container only-print">
     {%- if page.lang == "it" -%}
     Autorizzo il trattamento dei miei dati personali ai sensi dell’art. 13 Dlgs 196 del 30 giugno 2003 e dell’art.
-    13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale
+    13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale.
     {%-elsif page.lang == "en" -%}
-    <!-- TODO english consent text -->
+    I hereby authorize the use of my personal data in accordance to EU directive 679/16, art. 13 (GDPR) for recruitment
+    purposes.
     {%- endif -%}
   </p>
   {%- endif -%}
@@ -14,8 +15,7 @@
   <p>
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-    -
-    <!-- FIXME missing space? -->
+    -&nbsp;
     {%- if page.lang == "it" -%}
     Referenze su richiesta
     {%-elsif page.lang == "en" -%}
