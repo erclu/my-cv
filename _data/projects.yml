@@ -41,12 +41,12 @@
   description: |
     Abbiamo provato a progettare un modello (con considerevoli semplificazioni) per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari (modular dynamic ride sharing), come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
 
-- name: Diffie-Hellmann cracker
-  github: erclu/diffie-hellmann
-  quote: >
-    Java 8
-  description: |
-    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola con vari algoritmi (ad es. [Baby-step giant-step](https://en.wikipedia.org/wiki/Baby-step_giant-step)) i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
+#- name: Diffie-Hellmann cracker
+#  github: erclu/diffie-hellmann
+#  quote: >
+#    Java 8
+#  description: |
+#    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola con vari algoritmi (ad es. [Baby-step giant-step](https://en.wikipedia.org/wiki/Baby-step_giant-step)) i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
 
 - name: Pairing Heap
   github: erclu/pairing-heap
