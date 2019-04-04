@@ -12,9 +12,9 @@
   quote: >
     Python
   description: |
-    rifattorizzazione e miglioramenti che ho fatto sulla soluzione sviluppata dal mio gruppo per l'Online Qualification Round.
+    rifattorizzazione e miglioramenti che ho fatto sulla soluzione sviluppata in gruppo per l'Online Qualification Round di Google Hash COde 2019.
 
-    Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) per massimizzare uno *score* fra tutte le coppie di elementi.
+    Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) che massimizza uno *score* fra tutte le coppie di elementi.
 
 - name: My CV
   link: erclu.github.io/my-cv
@@ -28,7 +28,8 @@
   github: erclu/uni-helper
   quote: |
     Python, Google API python client, google-auth-oauthlib, lxml, ReportLab PDF toolkit
-  description: | # this will include new lines to allow paragraphs
+# TODO valorizzare di più questo progetto
+  description: |
     Collezione organica di script per gestire in maniera *smart* vari aspetti legati all'università, come ad esempio aggiornare il calendario in seguito a variazioni di orario sulla bacheca ufficiale, e associare gli appunti ai corsi in base all'ora in cui sono stati presi. 
 
 - name: Next's database model
@@ -41,12 +42,12 @@
   description: |
     Abbiamo provato a progettare un modello (con considerevoli semplificazioni) per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari (modular dynamic ride sharing), come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
 
-#- name: Diffie-Hellmann cracker
-#  github: erclu/diffie-hellmann
-#  quote: >
-#    Java 8
-#  description: |
-#    esercizio fatto durante il corso di Programmazione concorrente e distribuita. Calcola con vari algoritmi (ad es. [Baby-step giant-step](https://en.wikipedia.org/wiki/Baby-step_giant-step)) i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
+- name: Diffie-Hellmann cracker
+  github: erclu/diffie-hellmann
+  quote: >
+    Java 8
+  description: |
+    Esercizio svolto per il corso di Programmazione concorrente e distribuita. Implementazione dell'algoritmo baby-step/giant-step per calcolare i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
 
 - name: Pairing Heap
   github: erclu/pairing-heap
@@ -60,4 +61,4 @@
   quote: >
     C++, antlr4
   description: |
-    Parser per una semplice grammatica libera da contesto (Simple While Language) sviluppato con antlr4 in C++. Esercizio fatto durante il corso di automi e linguaggi formali.
+    Parser per una semplice grammatica libera da contesto (Simple While Language) sviluppato con antlr4 in C++. Esercizio svolto per il corso di automi e linguaggi formali.
