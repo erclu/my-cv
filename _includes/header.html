@@ -1,8 +1,8 @@
 <header class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-      <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      <h1>{{ site.author | escape }}</h1>
+      <h2>{{ site.data.about.description | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
@@ -100,21 +100,23 @@
         {%- endif -%}
       </ul>
 
-      {%- if site.website -%}
+      {%- if site.data.about.website -%}
       <div class="only-print">
-        <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
+        <img
+          src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.data.about.website | url_encode }}"
           alt="qr code" class="cropped-qr" />
-        <p> {%- include a.html href=site.website -%} </p>
+        <p> {%- include a.html href=site.data.about.website -%} </p>
       </div>
       {%- endif -%}
-      {%- if site.email -%}
-      <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
+      {%- if site.data.about.email -%}
+      <p> Email: <a href="mailto:{{ site.data.about.email }}" target="_blank">{{ site.data.about.email | escape }}</a>
+      </p>
       {%- endif -%}
-      {%- if site.address -%}
-      <p> Residenza: {{ site.address | escape }} </p>
+      {%- if site.data.about.address -%}
+      <p> Residenza: {{ site.data.about.address | escape }} </p>
       {%- endif -%}
-      {%- if site.phone -%}
-      <p> Telefono: {{ site.phone | escape }} </p>
+      {%- if site.data.about.phone -%}
+      <p> Telefono: {{ site.data.about.phone | escape }} </p>
       {%- endif -%}
       <!-- TODO add direct download link -->
       <!-- <a href="javascript:document.title='CV - '+document.title;window.print()"> <i class="fa fa-print"></i> </a> -->

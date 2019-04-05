@@ -1,18 +1,12 @@
 # Site
 repository: erclu/my-cv
 favicon: assets/images/logo.png
+title: Luca Ercole - CV
+author: Luca Ercole
 
 # Google Analytics (#XXX disabled until I can be compliant with GDPR)
 ga_enabled: false
 ga_property: UA-137567490-1
-
-# Personal info
-name: Luca Ercole
-title: Studente LT in Informatica
-website: https://erclu.github.io/my-cv
-email: luca.ercole.90@gmail.com
-address: Padova
-# phone: ...
 
 # About Section
 about_title: Chi sono
