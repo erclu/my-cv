@@ -6,28 +6,11 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.data.about.social.dribbble -%}
-        <li>
-          <a target="_blank" href="https://dribbble.com/{{ site.data.about.social.dribbble| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-dribbble" title="Dribble link"></i>
-          </a>
-        </li>
-        {%- endif -%}
         {%- if site.data.about.social.facebook -%}
         <li>
           <a target="_blank" href="https://www.facebook.com/{{ site.data.about.social.facebook| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-facebook" title="Facebook link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.flickr -%}
-        <li>
-          <a target="_blank"
-            href="https://www.flickr.com/photos/{{ site.data.about.social.flickr| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-flickr" title="Flickr link"></i>
           </a>
         </li>
         {%- endif -%}
@@ -39,38 +22,12 @@
           </a>
         </li>
         {%- endif -%}
-        {%- if site.data.about.social.instagram -%}
-        <li>
-          <a target="_blank"
-            href="https://www.instagram.com/{{ site.data.about.social.instagram| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-instagram" title="Instagram link"></i>
-          </a>
-        </li>
-        {%- endif -%}
         {%- if site.data.about.social.linkedin -%}
         <li>
           <a target="_blank"
             href="https://www.linkedin.com/in/{{ site.data.about.social.linkedin| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-linkedin" title="Linkedin link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.xing -%}
-        <li>
-          <a target="_blank" href="https://www.xing.com/profile/{{ site.data.about.social.xing| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-xing" title="Xing link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.pinterest -%}
-        <li>
-          <a target="_blank"
-            href="https://www.pinterest.com/{{ site.data.about.social.pinterest| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-pinterest" title="Pintrest link"></i>
           </a>
         </li>
         {%- endif -%}
@@ -87,14 +44,6 @@
           <a target="_blank" href="https://www.youtube.com/{{ site.data.about.social.youtube| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-youtube-play" title="Youtube link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.googleplus -%}
-        <li>
-          <a target="_blank" href="https://plus.google.com/{{ site.data.about.social.googleplus| escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-google-plus" title="Google plus link"></i>
           </a>
         </li>
         {%- endif -%}

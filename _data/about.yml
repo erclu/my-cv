@@ -7,17 +7,11 @@ address: Padova
 
 # Social links
 social:
-  # dribbble: jekyll
-  # facebook: jekyll
-  # flickr: jekyll
+  # facebook:
   github: erclu
-  # googleplus: +jekyll
-  # instagram: jekyll
   linkedin: erclu
-  # pinterest: jekyll
-  # twitter: jekyllrb
-  # xing: jekyll
-  # youtube: jekyll
+  # twitter:
+  # youtube:
 
 # About Section
 profile_image: assets/images/pic-optimized.jpg
@@ -35,7 +29,7 @@ simple_toolbox:
   - Flask
   - PuLP
   - pytest
-  - <mark>Java 8, 9</mark>
+  - <mark>Java 8</mark>
   - JUnit 5
   - TypeScript
   - <mark>JavaScript</mark>
