@@ -1,7 +1,7 @@
 # Site
 repository: erclu/my-cv
 favicon: assets/images/logo.png
-google_analytics: true #XXX not sure about this
+google_analytics: true
 #TODO cleanup git history
 #TODO check if favicon is correct
 #TODO remove old social links in header.html
@@ -11,7 +11,7 @@ name: Luca Ercole
 title: Studente LT in Informatica
 website: https://erclu.github.io/my-cv
 email: luca.ercole.90@gmail.com
-address: Padova (PD)
+address: Padova
 # phone: ...
 
 # About Section

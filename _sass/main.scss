@@ -209,3 +209,9 @@ p.quote {
     margin-top: 1em;
   }
 }
+
+.non-breaking-link {
+  white-space: nowrap;
+}
+
+// TODO refactor CSS

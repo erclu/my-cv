@@ -13,13 +13,13 @@ social:
   # youtube: jekyll
 
 # About Section
-profile_image: assets/images/pic.jpg
+profile_image: assets/images/pic-optimized.jpg
 content: |
   Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark> e <mark>Web Development</mark> con un focus sulla usability. Faccio abbondante uso di <mark>Script</mark> per semplificare task ripetitivi.
 
   Sono metodico e ho un background fortemente orientato al problem-solving.
 
-  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark> (test preliminare su [Tracktest.eu](https://tracktest.eu)), espressione orale <mark>C1</mark> 
+  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark>, espressione orale <mark>C1</mark> (risultati del test preliminare su [Tracktest.eu](https://tracktest.eu))
 
 toolbox_title: Ho familiarità con
 simple_toolbox:
@@ -32,7 +32,7 @@ simple_toolbox:
   - JUnit 5
   - TypeScript
   - <mark>JavaScript</mark>
-  - <mark>Google Apps Script</mark>
+  - <mark>Google APIs</mark>
   - HTML
   - XML
   - CSS

@@ -101,18 +101,20 @@
       </ul>
 
       {%- if site.website -%}
-      <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
-        alt="qr code" class="only-print cropped-qr" />
-      <p class="only-print"> Website: {%- include a.html href=site.website -%} </p>
+      <div class="only-print">
+        <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
+          alt="qr code" class="cropped-qr" />
+        <p> {%- include a.html href=site.website -%} </p>
+      </div>
       {%- endif -%}
       {%- if site.email -%}
       <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
       {%- endif -%}
       {%- if site.address -%}
-      <p> Address: {{ site.address | escape }} </p>
+      <p> Residenza: {{ site.address | escape }} </p>
       {%- endif -%}
       {%- if site.phone -%}
-      <p> Phone: {{ site.phone | escape }} </p>
+      <p> Telefono: {{ site.phone | escape }} </p>
       {%- endif -%}
       <!-- TODO add direct download link -->
       <!-- <a href="javascript:document.title='CV - '+document.title;window.print()"> <i class="fa fa-print"></i> </a> -->
