@@ -1,6 +1,6 @@
 # Site
 repository: erclu/my-cv
-favicon: assets/images/logo.png
+favicon: assets/images/logo-transparent.png
 title: Luca Ercole - CV
 author: Luca Ercole
 
@@ -32,6 +32,3 @@ sass:
 
 plugins:
   - jekyll-seo-tag
-
-#TODO cleanup git history
-#TODO check if favicon is correct
