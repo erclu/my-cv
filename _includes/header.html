@@ -49,16 +49,15 @@
         {%- endif -%}
       </ul>
 
-      {%- if site.data.about.website -%}
-      <div class="only-print">
-        <img
-          src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.data.about.website | url_encode }}"
-          alt="qr code" class="cropped-qr" />
-        <p> {%- include a.html href=site.data.about.website -%} </p>
+      <div class="container-qr-code only-print">
+        <img src="/assets/images/qr-code-url.png" alt="qr code" style="width:100px;height:100px;padding:5px;" />
+        {%- if site.data.about.website -%}
+        <p> Sito: {%- include a.html href=site.data.about.website class="non-breaking-link" -%} </p>
+        {%- endif -%}
       </div>
-      {%- endif -%}
       {%- if site.data.about.email -%}
-      <p> Email: <a href="mailto:{{ site.data.about.email }}" target="_blank">{{ site.data.about.email | escape }}</a>
+      <p>
+        Email: <a href="mailto:{{ site.data.about.email }}" target="_blank">{{ site.data.about.email | escape }}</a>
       </p>
       {%- endif -%}
       {%- if site.data.about.address -%}
