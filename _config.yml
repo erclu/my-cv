@@ -1,7 +1,10 @@
 # Site
-# repository: erclu/my-cv
+repository: erclu/my-cv
 favicon: assets/images/logo.png
 google_analytics: true #XXX not sure about this
+#TODO add direct download link
+#TODO cleanup git history
+#TODO pop stash
 
 # Personal info
 name: Luca Ercole
