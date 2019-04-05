@@ -1,10 +1,10 @@
 # Site
 repository: erclu/my-cv
 favicon: assets/images/logo.png
-google_analytics: true
-#TODO cleanup git history
-#TODO check if favicon is correct
-#TODO remove old social links in header.html
+
+# Google Analytics (#XXX disabled until I can be compliant with GDPR)
+ga_enabled: false
+ga_property: UA-137567490-1
 
 # Personal info
 name: Luca Ercole
@@ -38,3 +38,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+
+#TODO cleanup git history
+#TODO check if favicon is correct
+#TODO remove old social links in header.html
