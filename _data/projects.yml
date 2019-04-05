@@ -17,7 +17,6 @@
     Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) che massimizza uno *score* fra tutte le coppie di elementi.
 
 - name: My CV
-  link: erclu.github.io/my-cv
   github: erclu/my-cv
   quote: >
     Jekyll, Github Pages, HTML, Markdown
@@ -26,7 +25,7 @@
 
 - name: University Helper
   github: erclu/uni-helper
-  quote: |
+  quote: >
     Python, Google API python client, google-auth-oauthlib, lxml, ReportLab PDF toolkit
 # TODO valorizzare di più questo progetto
   description: |
