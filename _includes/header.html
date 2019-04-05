@@ -1,33 +1,16 @@
 <header class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-      <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      <h1>{{ site.author | escape }}</h1>
+      <h2>{{ site.data.about.description | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
-        {%- if site.data.about.social.dribbble -%}
-        <li>
-          <a target="_blank" href="https://dribbble.com/{{ site.data.about.social.dribbble| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-dribbble" title="Dribble link"></i>
-          </a>
-        </li>
-        {%- endif -%}
         {%- if site.data.about.social.facebook -%}
         <li>
           <a target="_blank" href="https://www.facebook.com/{{ site.data.about.social.facebook| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-facebook" title="Facebook link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.flickr -%}
-        <li>
-          <a target="_blank"
-            href="https://www.flickr.com/photos/{{ site.data.about.social.flickr| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-flickr" title="Flickr link"></i>
           </a>
         </li>
         {%- endif -%}
@@ -39,38 +22,12 @@
           </a>
         </li>
         {%- endif -%}
-        {%- if site.data.about.social.instagram -%}
-        <li>
-          <a target="_blank"
-            href="https://www.instagram.com/{{ site.data.about.social.instagram| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-instagram" title="Instagram link"></i>
-          </a>
-        </li>
-        {%- endif -%}
         {%- if site.data.about.social.linkedin -%}
         <li>
           <a target="_blank"
             href="https://www.linkedin.com/in/{{ site.data.about.social.linkedin| cgi_escape | escape }}"
             class="button button--sacnite button--round-l">
             <i class="fa fa-linkedin" title="Linkedin link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.xing -%}
-        <li>
-          <a target="_blank" href="https://www.xing.com/profile/{{ site.data.about.social.xing| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-xing" title="Xing link"></i>
-          </a>
-        </li>
-        {%- endif -%}
-        {%- if site.data.about.social.pinterest -%}
-        <li>
-          <a target="_blank"
-            href="https://www.pinterest.com/{{ site.data.about.social.pinterest| cgi_escape | escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-pinterest" title="Pintrest link"></i>
           </a>
         </li>
         {%- endif -%}
@@ -90,30 +47,28 @@
           </a>
         </li>
         {%- endif -%}
-        {%- if site.data.about.social.googleplus -%}
-        <li>
-          <a target="_blank" href="https://plus.google.com/{{ site.data.about.social.googleplus| escape }}"
-            class="button button--sacnite button--round-l">
-            <i class="fa fa-google-plus" title="Google plus link"></i>
-          </a>
-        </li>
-        {%- endif -%}
       </ul>
 
-      {%- if site.website -%}
-      <img src="https://zxing.org/w/chart?cht=qr&chs=120x120&chld=H&choe=UTF-8&chl={{ site.website | url_encode }}"
-        alt="qr code" class="only-print cropped-qr" />
-      <p class="only-print"> Website: {% include a.html href=site.website %}{{ site.website | escape }}</a> </p>
+      <div class="container-qr-code only-print">
+        <img src="/assets/images/qr-code-url.png" alt="qr code" style="width:100px;height:100px;padding:5px;" />
+        {%- if site.data.about.website -%}
+        <p> Sito: {%- include a.html href=site.data.about.website class="non-breaking-link" -%} </p>
+        {%- endif -%}
+      </div>
+      {%- if site.data.about.email -%}
+      <p>
+        Email: <a href="mailto:{{ site.data.about.email }}" target="_blank">{{ site.data.about.email | escape }}</a>
+      </p>
       {%- endif -%}
-      {%- if site.email -%}
-      <p> Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a> </p>
+      {%- if site.data.about.address -%}
+      <p> Residenza: {{ site.data.about.address | escape }} </p>
       {%- endif -%}
-      {%- if site.address -%}
-      <p> Address: {{ site.address | escape }} </p>
+      {%- if site.data.about.phone -%}
+      <p> Telefono: {{ site.data.about.phone | escape }} </p>
       {%- endif -%}
-      {%- if site.phone -%}
-      <p> Phone: {{ site.phone | escape }} </p>
-      {%- endif -%}
+      <!-- TODO add direct download link -->
+      <!-- <a href="javascript:document.title='CV - '+document.title;window.print()"> <i class="fa fa-print"></i> </a> -->
+
     </div>
   </div>
 </header>

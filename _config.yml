@@ -1,15 +1,12 @@
 # Site
-# repository: erclu/my-cv
+repository: erclu/my-cv
 favicon: assets/images/logo.png
-google_analytics: true #XXX not sure about this
+title: Luca Ercole - CV
+author: Luca Ercole
 
-# Personal info
-name: Luca Ercole
-title: Studente LT in Informatica
-website: erclu.github.io/my-cv
-email: luca.ercole.90@gmail.com
-address: Padova (PD)
-# phone: ...
+# Google Analytics (#XXX disabled until I can be compliant with GDPR)
+ga_enabled: false
+ga_property: UA-137567490-1
 
 # About Section
 about_title: Chi sono
@@ -35,3 +32,6 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+
+#TODO cleanup git history
+#TODO check if favicon is correct

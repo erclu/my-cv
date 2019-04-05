@@ -12,12 +12,11 @@
   quote: >
     Python
   description: |
-    rifattorizzazione e miglioramenti che ho fatto sulla soluzione sviluppata in gruppo per l'Online Qualification Round di Google Hash COde 2019.
+    rifattorizzazione, packaging e miglioramenti che ho effettuato sulla soluzione sviluppata in gruppo per l'Online Qualification Round di Google Hash Code 2019.
 
     Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) che massimizza uno *score* fra tutte le coppie di elementi.
 
 - name: My CV
-  link: erclu.github.io/my-cv
   github: erclu/my-cv
   quote: >
     Jekyll, Github Pages, HTML, Markdown
@@ -26,11 +25,12 @@
 
 - name: University Helper
   github: erclu/uni-helper
-  quote: |
+  quote: >
     Python, Google API python client, google-auth-oauthlib, lxml, ReportLab PDF toolkit
-# TODO valorizzare di più questo progetto
   description: |
-    Collezione organica di script per gestire in maniera *smart* vari aspetti legati all'università, come ad esempio aggiornare il calendario in seguito a variazioni di orario sulla bacheca ufficiale, e associare gli appunti ai corsi in base all'ora in cui sono stati presi. 
+    Collezione organica di script per gestire vari aspetti legati all'università. Ad esempio
+    - aggiorna il mio calendario quando vengono comunicate variazioni di orario sulla bacheca dei corsi
+    - organizza gli appunti che scrivo su un tablet, controllando sul calendario a che lezione corrispondono, associandoli ai vari corsi e creando dei file PDF indicizzati per argomento.
 
 - name: Next's database model
   github: erclu/next-db

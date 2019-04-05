@@ -199,12 +199,19 @@ ul.icons a {
 p.quote {
   font-size: 1.4em;
   font-style: italic;
-  padding: .5em 2.5em 1em;
+  padding: .5em 2.5em;
   text-align: center;
 
+  // TODO align quotes to right in printed version. split by 9/3 or similar
   @media print {
     text-align: left;
     padding: 0em 1em;
     margin-top: 1em;
   }
 }
+
+.non-breaking-link {
+  white-space: nowrap;
+}
+
+// TODO refactor CSS

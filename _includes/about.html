@@ -2,7 +2,8 @@
   <h3>{{ site.about_title | default: "About Me" }}</h3>
   <div class="row clearfix">
     <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-      <span class="profile-img" style="background-image: url({{ site.data.about.profile_image | relative_url }})" />
+      <span class="profile-img"
+        style="background-image: url({{ site.data.about.profile_image | relative_url }})"></span>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       {{ site.data.about.content | strip | markdownify }}
