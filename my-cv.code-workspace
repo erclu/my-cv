@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "vendor": true,
+      ".bundle": true,
+      "_site": true
+    },
+  }
+}

@@ -1,5 +1,7 @@
 ---
 layout: default
-lang: it # FIXME should this be at site level instead of page?
-# TODO language en/it?
+lang: it
+# lang: en
+# TODO language en/it. access yml values using "page.lang"
+# TODO add last modified date
 ---

@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // {
+    //   "label": "convert resumeIT to html",
+    //   "type": "shell",
+    //   "command": "pandoc resumeIT.md --from markdown --to html5 --standalone -o resumeIT.html",
+    //   "problemMatcher": []
+    // },
+    {
+      "label": "serve jekyll",
+      "type": "shell",
+      "command": "bundle exec jekyll serve --livereload",
+      "options": {
+        "shell": {
+          "args": [
+            "-ic"
+          ],
+          "executable": "bash.exe"
+        }
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "isBackground": true,
+      "presentation": {
+        "clear": true,
+        "echo": true,
+        "focus": false,
+        "panel": "shared",
+        "reveal": "silent"
+      },
+      "runOptions": {
+        // "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "publish master",
+      "type": "shell",
+      "command": "& ./publish.ps1",
+      "problemMatcher": [],
+      "presentation": {
+        "clear": false,
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": true
+      },
+    },
+    {
+      "label": "open localhost",
+      "type": "shell",
+      "command": "explorer.exe http://localhost:4000",
+      "problemMatcher": [],
+      "presentation": {
+        "clear": true,
+        "echo": true,
+        "focus": true,
+        "panel": "shared",
+        "reveal": "always",
+      },
+    },
+  ]
+}
