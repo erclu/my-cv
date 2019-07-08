@@ -12,9 +12,9 @@
   quote: >
     Python
   description: |
-    rifattorizzazione, packaging e miglioramenti che ho effettuato sulla soluzione sviluppata in gruppo per l'Online Qualification Round di Google Hash Code 2019.
+    rifattorizzazione, packaging e miglioramenti che ho effettuato sulla soluzione che abbiamo sviluppato in gruppo per il Google Hash Code 2019 - Online Qualification Round.
 
-    Consiste in un algoritmo a sliding window su un dataset (numerosità ~10<sup>5</sup>) che massimizza uno *score* fra tutte le coppie di elementi.
+    Consiste in un algoritmo a sliding window su un dataset a numerosità ~10<sup>5</sup> che massimizza uno *score* fra coppie di elementi.
 
 - name: My CV
   github: erclu/my-cv
@@ -26,7 +26,7 @@
 - name: University Helper
   github: erclu/uni-helper
   quote: >
-    Python, Google API python client, google-auth-oauthlib, lxml, ReportLab PDF toolkit
+    Python, Google API client, google-auth-oauthlib, lxml, ReportLab PDF toolkit
   description: |
     Collezione organica di script per gestire vari aspetti legati all'università. Ad esempio
     - aggiorna il mio calendario quando vengono comunicate variazioni di orario sulla bacheca dei corsi
@@ -42,12 +42,12 @@
   description: |
     Abbiamo provato a progettare un modello (con considerevoli semplificazioni) per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari (modular dynamic ride sharing), come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
 
-- name: Diffie-Hellmann cracker
+- name: Diffie-Hellmann breaker
   github: erclu/diffie-hellmann
   quote: >
     Java 8
   description: |
-    Esercizio svolto per il corso di Programmazione concorrente e distribuita. Implementazione dell'algoritmo baby-step/giant-step per calcolare i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo.
+    Implementazione dell'algoritmo baby-step/giant-step per calcolare i segreti di uno scambio chiavi alla Diffie-Hellman su un gruppo ciclico finito sufficientemente piccolo. Esercizio svolto per il corso di Programmazione concorrente e distribuita.
 
 - name: Pairing Heap
   github: erclu/pairing-heap
@@ -56,9 +56,9 @@
   description: |
     Implementazione stile STL di una [Pairing Heap](https://en.wikipedia.org/wiki/Pairing_heap).
 
-# TODO caricare su github
-- name: 'SWL Parser'
-  quote: >
-    C++, antlr4
-  description: |
-    Parser per una semplice grammatica libera da contesto (Simple While Language) sviluppato con antlr4 in C++. Esercizio svolto per il corso di automi e linguaggi formali.
+# # XXX forse overkill? andrebbe sistemato e caricato su github
+# - name: "SWL Parser"
+#   quote: >
+#     C++, antlr4
+#   description: |
+#     Parser per una semplice grammatica libera da contesto (Simple While Language) sviluppato con antlr4 in C++. Esercizio svolto per il corso di automi e linguaggi formali.

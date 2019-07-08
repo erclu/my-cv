@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: it
-# TODO language en/it?
-#TODO add last modified date
+# lang: en
+# TODO language en/it. access yml values using "page.lang"
+# TODO add last modified date
 ---

@@ -10,17 +10,17 @@ social:
   # facebook:
   github: erclu
   linkedin: erclu
-  # twitter:
+  # twitter: erc_lu
   # youtube:
 
 # About Section
 profile_image: assets/images/erclu-optimized.jpg
 content: |
-  Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark> e <mark>Web Development</mark> con un focus sulla usability. Faccio abbondante uso di <mark>Script</mark> per semplificare task ripetitivi.
+  Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark>, <mark>gestione documentale</mark> e <mark>Web Development</mark> con un focus su usability. Mi diverto a scriptare tutto ciò che è scriptabile.
 
   Sono metodico e ho un background fortemente orientato al problem-solving.
 
-  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark> (risultati del test preliminare su [Tracktest.eu](https://tracktest.eu)), espressione orale <mark>C1</mark> 
+  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark> (risultati del test preliminare su [Tracktest.eu](https://tracktest.eu)), espressione orale <mark>C1</mark>
 
 toolbox_title: Ho familiarità con
 simple_toolbox:
@@ -28,18 +28,17 @@ simple_toolbox:
   - Jupyter
   - Flask
   - PuLP
-  - pytest
+  # - pytest
   - <mark>Java 8</mark>
-  - JUnit 5
-  - TypeScript
-  - <mark>JavaScript</mark>
+  # - JUnit 5
+  - <mark>TypeScript</mark>
+  - JavaScript
   - <mark>Google APIs</mark>
-  - HTML
-  - XML
+  - HTML, XML
   - CSS
   - PostCSS
   - Sass
-  - Jekyll
+  # - Jekyll
   - SQL
   - C++
   - Arduino
@@ -47,7 +46,5 @@ simple_toolbox:
   - PHP
   - <mark>Git</mark>
   - bash
-  - PowerShell
-  - LaTeX
-  - pandoc
-
+  - <mark>PowerShell</mark>
+  - LaTeX, pandoc
