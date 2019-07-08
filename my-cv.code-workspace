@@ -1,39 +1,14 @@
 {
-  "folders": [{
-    "path": "."
-  }],
-  "settings": { // "editor.wordWrap": "off",
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
     "files.exclude": {
       "vendor": true,
       ".bundle": true,
       "_site": true
-    },
-    "beautify.ignore": [
-      "_includes/google-analytics.html",
-      // "assets/style.scss",
-    ],
-    "beautify.language": {
-      "js": {
-        "type": [
-          "javascript",
-          // "json",
-          // "jsonc",
-          "typescript"
-        ],
-        "filename": [
-          ".jshintrc",
-          ".jsbeautifyrc"
-        ]
-      },
-      "css": [
-        "css",
-        "less",
-        "scss"
-      ],
-      "html": [
-        "htm",
-        "html"
-      ]
     },
   }
 }

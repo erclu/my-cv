@@ -33,7 +33,7 @@
         "reveal": "silent"
       },
       "runOptions": {
-        "runOn": "folderOpen"
+        // "runOn": "folderOpen"
       }
     },
     {
