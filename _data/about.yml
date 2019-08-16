@@ -16,20 +16,20 @@ social:
 # About Section
 profile_image: assets/images/erclu-optimized.jpg
 content: |
-  Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark>, <mark>gestione documentale</mark> e <mark>Web Development</mark> con un focus su usability. Mi diverto a scriptare tutto ciò che è scriptabile.
+  Ciao, sono Luca! Mi interessano principalmente <mark>Data Science</mark>, <mark>IoT</mark>, <mark>gestione documentale</mark> e <mark>Web Development</mark>.
 
   Sono metodico e ho un background fortemente orientato al problem-solving.
 
-  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark> (risultati del test preliminare su [Tracktest.eu](https://tracktest.eu)), espressione orale <mark>C1</mark>
+  Ho un'ottima conoscenza dell'inglese. Livelli CEFR: lettura e scrittura <mark>C2</mark>, espressione orale <mark>C1</mark> (risultati del test preliminare su [Tracktest.eu](https://tracktest.eu))
 
 toolbox_title: Ho familiarità con
 simple_toolbox:
   - <mark>Python</mark>
-  - Jupyter
+  - JupyterLab
   - Flask
   - PuLP
   # - pytest
-  - <mark>Java 8</mark>
+  - <mark>Java 8, 11</mark>
   # - JUnit 5
   - <mark>TypeScript</mark>
   - JavaScript
@@ -44,7 +44,7 @@ simple_toolbox:
   - Arduino
   - Unity (C#)
   - PHP
-  - <mark>Git</mark>
-  - bash
+  # - <mark>Git</mark>
   - <mark>PowerShell</mark>
-  - LaTeX, pandoc
+  - bash
+  # - LaTeX, pandoc
