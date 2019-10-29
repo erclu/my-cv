@@ -6,9 +6,12 @@
   ],
   "settings": {
     "files.exclude": {
-      "vendor": true,
+      "*.gem": true,
       ".bundle": true,
-      "_site": true
+      ".jekyll-metadata": true,
+      ".sass-cache": true,
+      "_site": true,
+      "vendor": true,
     },
   }
 }
