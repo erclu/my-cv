@@ -16,6 +16,12 @@
 
     Consiste in un algoritmo a sliding window su un dataset a numerosità ~10<sup>5</sup> che massimizza uno *score* fra coppie di elementi.
 
+# TODO publish this!
+# - name: PowerShell Utils
+#   github: erclu/powershell-utils
+#   description: |
+#     Alcuni script e moduli che utilizzo per semplificare varie attività. Ad esempio un mini-wrapper per la cli del password manager di bitwarden, o un tool per cercare se ci sono modifiche non backuppate sugli upstream dei miei repository locali.
+
 - name: My CV
   github: erclu/my-cv
   quote: >
@@ -38,9 +44,9 @@
     SQL, Python
   # # english text
   # description: |
-  #   We tried to model (with *many* simplifying assumptions) the data collected during the day-to-day operations of a fleet of modular dynamic ride sharing (mDRS) vehicles such as those proposed by [Next Future Transportations](https://www.next-future-mobility.com/).
+  #   We designed a simplified model of the data collected during the daily operations of a fleet of modular dynamic ride sharing (mDRS) vehicles such as those proposed by [Next Future Transportations](https://www.next-future-mobility.com/).
   description: |
-    Abbiamo provato a progettare un modello (con considerevoli semplificazioni) per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari (modular dynamic ride sharing), come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
+    Abbiamo progettato un modello semplificato per trattare efficacemente i dati collezionati durante l'operatività di una flotta di veicoli modulari come quella proposta da [Next Future Transportations](https://www.next-future-mobility.com/).
 
 - name: Diffie-Hellmann breaker
   github: erclu/diffie-hellmann
