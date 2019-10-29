@@ -4,7 +4,7 @@ exclude:
   - .vscode
   - vendor
   - "*.code-workspace"
-  - .jsbeautifyrc
+  - .prettierrc.json
   - publish.ps1
 
 # Site

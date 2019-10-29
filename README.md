@@ -1,7 +1,6 @@
 # Website containing my CV/resume
 
-Powered by Jekyll and Github Pages. The theme is based on
-[sproogen's modern-resume-theme](https://github.com/sproogen/modern-resume-theme) and modified by me.
+Powered by Jekyll and Github Pages. The theme is based on [sproogen's modern-resume-theme](https://github.com/sproogen/modern-resume-theme) and modified by me.
 
 ## Setup & use
 
@@ -13,4 +12,4 @@ Run `bundle install` to get the development environment installed in the configu
 
 Run `bundle update` to update dependencies
 
-Run `bundle exec jekyll serve --livereload` to get the local development environment
+Run `bundle exec jekyll serve --incremental --livereload` in bash to get a local development environment
