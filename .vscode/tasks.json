@@ -53,7 +53,7 @@
     {
       "label": "publish master",
       "type": "shell",
-      "command": "& ./publish.ps1",
+      "command": "& .vscode/publish.ps1",
       "problemMatcher": [],
       "presentation": {
         "clear": false,
