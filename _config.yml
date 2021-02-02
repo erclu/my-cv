@@ -3,12 +3,11 @@ exclude:
   - .bundle
   - .vscode
   - vendor
-  - "*.code-workspace"
   - .prettierrc.json
   - publish.ps1
 
 # Site
-repository: erclu/my-cv
+repository: erclu/cv
 favicon: assets/images/logo-transparent.png
 title: Luca Ercole - CV
 author: Luca Ercole

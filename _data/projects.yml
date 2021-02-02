@@ -23,7 +23,7 @@
 #     Alcuni script e moduli che utilizzo per semplificare varie attività. Ad esempio un mini-wrapper per la cli del password manager di bitwarden, o un tool per cercare se ci sono modifiche non backuppate sugli upstream dei miei repository locali.
 
 - name: My CV
-  github: erclu/my-cv
+  github: erclu/cv
   quote: >
     Jekyll, Github Pages, HTML, Markdown
   description: |
